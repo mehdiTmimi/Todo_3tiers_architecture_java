@@ -5,3 +5,5 @@ com.estf.todo (tout le projet va etre ecrit dans ce package)
 
 4- creation du package persistence/ dao (data access object) / orm (object relational mapping)/ repository
 5- pour chaque bean => 1 interface et au moin une implementation
+6- creation du package metier/business/services/core
+7- 1 seule interface (Services) et une implementation (DefaultServices)

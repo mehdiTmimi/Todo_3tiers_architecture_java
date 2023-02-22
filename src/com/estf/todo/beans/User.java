@@ -1,13 +1,13 @@
 package com.estf.todo.beans;
 
 import java.util.List;
+import java.util.Vector;
 
 public class User {
 	
 	private String login;
 	private String pwd;
 	private String name;
-	private List<Todo> todos;
 	
 	
 	
@@ -15,6 +15,11 @@ public class User {
 		super();
 	}
 	
+	public User(User user) {
+		this.login=user.login;
+		this.pwd=user.pwd;
+		this.name=user.name;
+	}
 	
 	public User(String login, String pwd, String name) {
 		super();
@@ -41,12 +46,6 @@ public class User {
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
-	public List<Todo> getTodos() {
-		return todos;
-	}
-	public void setTodos(List<Todo> todos) {
-		this.todos = todos;
 	}
 	
 }
