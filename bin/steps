@@ -1,0 +1,7 @@
+1- creation du package racine
+com.estf.todo (tout le projet va etre ecrit dans ce package)
+2- creation du package beans (models, entities)
+3- diagramme de classe vers des classes java ( package beans )
+
+4- creation du package persistence/ dao (data access object) / orm (object relational mapping)/ repository
+5- pour chaque bean => 1 interface et au moin une implementation
